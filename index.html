@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Event Listener Hands-On Activity-1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--- The main objectives of this kind activity is to clarify the specific button-->
+
+    <h1>JavaScript addEventListener() Hands-On</h1>
+    <button id="button1" class="button1">Button 1</button>
+    <button id="button2" class="button2">Button 2</button>
+    <button id="button3" class="button3">Button 3</button>
+
+    <script>
+        function button1Clicked() {
+            alert("Yes! The Button 1 was clicked!");
+        }
+
+        function button2Clicked() {
+            alert("Fantasic! the Button 2 was clicked!");
+        }
+
+        function button3Clicked() {
+            alert("That`s Lit the! Button 3 was clicked!");
+        }
+
+        document.getElementById("button1").addEventListener("click", button1Clicked);
+        document.getElementById("button2").addEventListener("click", button2Clicked);
+        document.getElementById("button3").addEventListener("click", button3Clicked);
+    </script>
+</body>
+</html>
+<!--------- LEONEL GEMOTO LORIA ------>
